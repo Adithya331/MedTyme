@@ -170,10 +170,11 @@ body {
     align-items: center;
     gap: 1rem;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
-.equipment h2, .membership h2 {
+.equipment h2,
+.membership h2 {
     margin-top: 1rem;
     color: blueviolet;
 }
@@ -189,16 +190,15 @@ body {
 
 @media (min-width: 600px) and (max-width: 991px) {
 
-    .hero img{
+    .hero img {
         width: 20rem;
         height: 20rem;
     }
-    .grid img{
+
+    .grid img {
         width: 10rem;
         height: 10rem;
     }
-    
-    
 }
 
 /* styling for desktop view */
@@ -236,7 +236,7 @@ body {
         height: 10rem;
     }
 
-    .footer{
+    .footer {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-areas: "equipment membership";
