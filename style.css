@@ -45,20 +45,6 @@ body {
     margin-left: 5rem;
     background-color: white;
 }
-.card {
-    
-    background-color: #f0f0f0;
-    transition: transform 0.3s ease; /* Define the transition property */
-  }
-  
-  .card.slide-right {
-    transform: translateX(100%); /* Slide the card to the right */
-  }
-  
-  .card.slide-left {
-    transform: translateX(-100%); /* Slide the card to the left */
-  }
-  
 
 .card form {
     padding: 1.5rem;
